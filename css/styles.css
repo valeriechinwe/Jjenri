@@ -157,7 +157,7 @@ background-color: #eec724;
   margin: 12px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
 
 #home {
   text-align: center;
