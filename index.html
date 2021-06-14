@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JJENRI</title>
+
+  <!--Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <!--Bootstrap script CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+  <!--CSS styling -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--icon/glyph for button-->
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+  <!--my J favicon-->
+  <link rel="icon" href="favicon.ico">
+
+  <!--cant rmber-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <!--for Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="home">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">JJENRI</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ourstory">OurStory</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <div class="container-fluid">
+
+            </div>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home page/ landing page -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Mouthwatering home cooked meals - just few clicks away.</h1>
+          <a href="allmenu.html"><button type="button" class="btn btn-outline-success btn-lg button"><i class="fas fa-shopping-cart"></i> Order</button></a>
+
+          <a href="#testimonials"><button type="button" class="btn btn-outline-light btn-lg button"> <i class="far fa-comment-dots"></i> Testimonials</button></a>
+
+
+        </div>
+
+        <div class="col-lg-6">
+          <a>
+            <img class="first-img" src="images/food3.jpg" alt="food platter">
+            <img class="first-img" src="images/food 2.jpg" alt="SA Dish">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="menu">
+
+    <h3 class="menuofferingh3">Our Top Offerings</h3>
+    <p class="menuofferingp">from our kitchen</p>
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <h5>Fried Rice</h5>
+          <img class="menuimg" src="images/friedrice.jpg" alt="dog-profile">
+        </div>
+
+        <div class="col-lg-4">
+          <h5>Turkey Wings</h5>
+          <img class="menuimg" src="images/turkeywings.jpg" alt="dog-profile">
+        </div>
+
+        <div class="col-lg-4">
+          <h5>Bitterleaf Soup/ Ofe Onugbu</h5>
+          <img class="menuimg" src="images/bitterleaf.jpg" alt="dog-profile">
+        </div>
+
+        <div class="col-lg-4 secondrow">
+          <h5>Egusi Soup</h5>
+          <img class="menuimg" src="images/egusi.jpg" alt="dog-profile">
+        </div>
+
+        <div class="col-lg-4 secondrow">
+          <h5>Catfish Soup</h5>
+          <img class="menuimg" src="images/catfishpeppersoup.jpg" alt="dog-profile">
+        </div>
+
+        <div class="col-lg-4 secondrow">
+          <h5>Special Platter</h5>
+          <img class="menuimg" src="images/platter1.jpg" alt="dog-profile">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div class="container-fluid testi">
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="menuofferingh3" style="color:white;">What others are saying . . . </h3>
+
+            <p> <q>My friend told me about this website. I was a bit sceptical but I so longed for turkey stew and I placed my orders. Long story short I no longer have to spend hours in the kitchen. I am glad I found Jjenri for our local
+                delicacies.</q> <br>
+              <br><i>Gift, Milnerton.</i>
+            </p>
+            <hr>
+          </div>
+          <div class="carousel-item">
+
+
+            <p class="testimonial-text"> <q>Jjenri has helped my eating habits a great deal. I now eat healthier meals instead of junk food. Jjenri all the way.</q> <br> <br><i>Seun, Cape Flats.</i></p>
+            <hr>
+          </div>
+          <div class="carousel-item">
+
+
+            <p class="testimonial-text"><q>Being new to Cape Town, I searched for affordable Nigerian resturants to no avail. Stumbled on Jjenri and bulk ordered their signature local rice and egusi soup and I was blown by the
+                richness of the food,
+                felt
+                like I
+                was back home with my mother. Kudos to the chef behind the scene.</q> <br> <br><i>Zubby, Zonnebloem.</i></p>
+                <hr>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <!-- <section id="press">
+    <img src="images/techcrunch.png" alt="tc-logo">
+    <img src="images/tnw.png" alt="tnw-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo">
+    <img src="images/mashable.png" alt="mashable-logo">
+
+  </section> -->
+
+
+  <!-- Pricing -->
+
+
+
+  <!-- <section id="order">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Jollof Rice <span class="menuofferingp">R80</span> </h5>
+              <hr>
+              <p class="card-text orderp">Long grain rice made with fresh tomatoes, chili and more for that party jollof taste.</p>
+              <a href="#" class="btn btn-primary">ORDER</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Fried Rice <span class="menuofferingp">R100</span></h5>
+              <hr>
+              <p class="card-text orderp">Long grain rice made with fresh tomatoes, chili and more for that party jollof taste.</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Local Rice <span class="menuofferingp">R90</span></h5>
+              <hr>
+              <p class="card-text orderp">Long grain rice made with fresh tomatoes, chili and more for that party jollof taste.</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Ofada Sauce <span class="menuofferingp">R100</span></h5>
+              <hr>
+              <p class="card-text orderp">Contains beef, liver, assorted meat and boiled eggs. Call us for cutomised order.</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Egusi Soup <span class="menuofferingp">R80</span></h5>
+              <hr>
+              <p class="card-text orderp">Long grain rice made with fresh tomatoes, chili and more for that party jollof taste.</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Onugbu Soup <span class="menuofferingp">R90</span></h5>
+              <hr>
+              <p class="card-text orderp">Long grain rice made with fresh tomatoes, chili and more for that party jollof taste.</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+       <a href="allmenu.html"> <button type="button" class="btn btn-outline-primary btn-lg button"> View all menu</button></a>
+    </div>
+
+  </section> -->
+
+  <section id="ourstory">
+    <div class="container-fluid story">
+      <h3 class="menuofferingh3">Our Story</h3>
+      <h5>Jjenri makes it super easy for you to dish up sizzling hot delicay in your own kitchen therefore saving you time at the fraction of the cost; giving you more time to live life outside instead of behind the stove. We carefully source the finest and freshest quality local ingredients used for your much loved meal. <br> </h5>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="social-icon fab fa-facebook"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fab fa-twitter-square"></i>
+    <i class="social-icon fas fa-envelope-square"></i>
+    <i class="social-icon fas fa-phone-volume"></i>
+
+    <p style="color:green; font-size:0.8rem;"> Copyright 2021 | JJENRI</p>
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
