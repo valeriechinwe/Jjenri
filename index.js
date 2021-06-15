@@ -1,3 +1,5 @@
-$(document).ready(function(){
-  alert("Welcome, Nnoo, Ekaabo, Akwaaba.");
-});
+window.onload = function(){
+  setTimeout(function(){
+    alert("Welcome, Nnoo, Ekaabo, Akwaaba.")}, 1000)
+}
+
