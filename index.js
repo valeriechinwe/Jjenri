@@ -1,3 +1,3 @@
-$("*").ready(function(){
+$(document).ready(function(){
   alert("Welcome, Nnoo, Ekaabo, Akwaaba.");
 });
