@@ -8,13 +8,13 @@
 
 .navbar-brand {
   font-family: 'Cinzel', serif;
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
 }
 
 .nav-link {
   font-family: 'Lobster Two', cursive;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .nav-link:hover {
@@ -76,7 +76,6 @@ a:hover img:first-child {
   color: gray;
   font-family: 'Lobster Two', cursive;
   font-size: 1.5rem;
-
 }
 
 .menuimg {
@@ -144,13 +143,12 @@ table {
 
 .story {
   background-color: white;
-
 }
 
 #footer {
-padding: 1% 1%;
-text-align: center;
-background-color: #eec724;
+  padding: 1% 1%;
+  text-align: center;
+  background-color: #eec724;
 }
 
 .social-icon {
@@ -158,18 +156,36 @@ background-color: #eec724;
 }
 
 @media (max-width: 600px) {
+  #home {
+    text-align: center;
+  }
 
-#home {
-  text-align: center;
-}
+  .navbar-brand {
+    font-size: 6rem;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  .menuofferingh3 {
+    font-size: 3.5rem;
+  }
+
+  .menuofferingp {
+    font-size: 2.3rem;
+  }
 
   .first-img {
-    width:65%;
-}
+    width: 65%;
+  }
 
-    a:hover img:last-child {
-      display: block;
-      transform: rotate(0);
-    }
-
+  a:hover img:last-child {
+    display: block;
+    transform: rotate(0);
+  }
 }
